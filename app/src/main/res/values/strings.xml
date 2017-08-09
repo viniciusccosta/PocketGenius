@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pocket Genius</string>
+    <string name="lbl_cadastrar">Cadastrar</string>
+    <string name="lbl_login" translatable="false">Login</string>
+    <string name="desc_img_telaInicial">Imagem da Tela Inicial</string>
+    <string name="lbl_entrar">ENTRAR</string>
+    <string name="lbl_esqueciSenha"> <a href="www.google.com.br">Esqueci minha senha</a> </string>
+    <string name="lbl_email" translatable="false">E-mail</string>
+    <string name="lbl_senha">Senha</string>
+    <string name="lbl_nome">Nome</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket Genius</string>
+    <string name="lbl_cadastrar">Cadastrar</string>
+    <string name="desc_img_telaInicial">Imagem da Tela Inicial</string>
+    <string name="lbl_entrar">ENTRAR</string>
+    <string name="lbl_esqueciSenha">Esqueci minha senha</string>
+    <string name="lbl_senha">Senha</string>
+    <string name="lbl_nome">Nome</string>
+</resources>

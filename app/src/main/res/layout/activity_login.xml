@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20sp"
+    android:layout_marginTop="20sp"
+    android:orientation="vertical"
+    tools:context="viniciusgettingbetter.pocketgenius.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        app:srcCompat="@mipmap/helloiamgenius" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtxt_login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/lbl_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtxt_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/lbl_senha"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/txtview_login_esqueci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="20sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/lbl_esqueciSenha"
+            android:autoLink="web"
+            android:linksClickable="true"/>
+
+        <Button
+            android:id="@+id/btn_login_entrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/lbl_entrar" />
+    </LinearLayout>
+
+</LinearLayout>
