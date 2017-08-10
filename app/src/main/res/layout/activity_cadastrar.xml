@@ -84,11 +84,11 @@
         android:inputType="textPassword" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/img_cadastro_welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
-        app:srcCompat="@mipmap/welcome"
-        android:onClick="NovoCadastro"/>
+        android:contentDescription="@string/desc_img_novoCadastro"
+        app:srcCompat="@drawable/welcome" />
 
 </LinearLayout>

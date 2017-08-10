@@ -17,7 +17,7 @@
         android:layout_marginTop="20sp"
         android:layout_weight="2"
         android:contentDescription="@string/desc_img_telaInicial"
-        app:srcCompat="@mipmap/fusao" />
+        app:srcCompat="@drawable/fusao" />
 
     <LinearLayout
         android:id="@+id/linear_btn_telaInicial"

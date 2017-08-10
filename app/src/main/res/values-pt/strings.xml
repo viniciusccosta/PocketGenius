@@ -7,4 +7,5 @@
     <string name="lbl_esqueciSenha">Esqueci minha senha</string>
     <string name="lbl_senha">Senha</string>
     <string name="lbl_nome">Nome</string>
+    <string name="desc_img_novoCadastro">Imagem clicavel para criar novo cadastro</string>
 </resources>
