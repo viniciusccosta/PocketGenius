@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="10sp"
-    android:layout_marginLeft="10sp"
-    android:layout_marginRight="10sp"
+    android:layout_margin="10sp"
     android:orientation="vertical"
     tools:context="viniciusgettingbetter.pocketgenius.MainActivity">
 
@@ -33,8 +31,7 @@
             android:layout_height="wrap_content"
             android:background="#00FF00"
             android:text="@string/lbl_cadastrar"
-            android:textSize="14sp"
-            android:onClick="goCadastrar"/>
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/btn_login"
@@ -43,8 +40,7 @@
             android:layout_marginTop="10sp"
             android:background="#0F0FF0"
             android:text="@string/lbl_login"
-            android:textSize="14sp"
-            android:onClick="goLogin"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
 </LinearLayout>

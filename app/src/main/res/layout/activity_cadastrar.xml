@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="20sp"
-    android:layout_marginLeft="20sp"
-    android:layout_marginRight="20sp"
-    android:layout_marginTop="20sp"
+    android:layout_margin="10sp"
     android:orientation="vertical"
     tools:context="viniciusgettingbetter.pocketgenius.CadastrarActivity">
 
@@ -26,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Fulano Ciclano"
+        android:hint="@string/hint_nome"
         android:inputType="textPersonName" />
 
     <TextView
@@ -44,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="fulano_ciclano@gmail.com"
+        android:hint="@string/hint_email"
         android:inputType="textEmailAddress" />
 
     <TextView
@@ -62,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="******"
+        android:hint="@string/hint_senha"
         android:inputType="textPassword" />
 
     <TextView
@@ -80,7 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="******"
+        android:hint="@string/hint_senha"
         android:inputType="textPassword" />
 
     <ImageView

@@ -9,4 +9,8 @@
     <string name="lbl_senha">Senha</string>
     <string name="lbl_nome">Nome</string>
     <string name="desc_img_novoCadastro">Imagem clicavel para criar novo cadastro</string>
+    <string name="desc_img_login" translatable="false">Hello, I am Genius</string>
+    <string name="hint_nome">Fulano Ciclano da Silva</string>
+    <string name="hint_email">fulano.ciclano@gmail.com</string>
+    <string name="hint_senha">********</string>
 </resources>

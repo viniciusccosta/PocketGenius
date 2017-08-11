@@ -8,4 +8,7 @@
     <string name="lbl_senha">Password</string>
     <string name="lbl_nome">Name</string>
     <string name="desc_img_novoCadastro">Clickable image to sign in</string>
+    <string name="hint_senha">********</string>
+    <string name="hint_nome">Jack Ward</string>
+    <string name="hint_email">jack.ward@gmail.com</string>
 </resources>

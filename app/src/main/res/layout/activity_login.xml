@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="20sp"
-    android:layout_marginTop="20sp"
+    android:layout_margin="10sp"
     android:orientation="vertical"
     tools:context="viniciusgettingbetter.pocketgenius.LoginActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_login_hello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20sp"
         android:layout_marginTop="20sp"
+        android:contentDescription="@string/desc_img_login"
         app:srcCompat="@drawable/helloiamgenius" />
 
     <LinearLayout

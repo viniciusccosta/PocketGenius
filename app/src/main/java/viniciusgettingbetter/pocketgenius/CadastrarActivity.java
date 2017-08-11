@@ -17,7 +17,7 @@ public class CadastrarActivity extends AppCompatActivity {
         imgview_novoCadastro.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-
+                finish();
             }
         });
 

@@ -15,19 +15,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_login       = (Button) findViewById(R.id.btn_login);
-        btn_cadastrar   = (Button) findViewById(R.id.btn_cadastrar);
+        btn_login = (Button) findViewById(R.id.btn_login);
+        btn_cadastrar = (Button) findViewById(R.id.btn_cadastrar);
 
+        btn_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_cadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CadastrarActivity.class);
+                startActivity(intent);
+            }
+        });
     }
-
-    public void goLogin(View view){
-        Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
-    }
-
-    public void goCadastrar(View view){
-        Intent intent = new Intent(this, CadastrarActivity.class);
-        startActivity(intent);
-    }
-
 }
