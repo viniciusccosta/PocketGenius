@@ -8,6 +8,7 @@ import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 //import java.util.Arrays;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,36 +30,25 @@ public class PrincipalActivity extends AppCompatActivity {
 
         // Título e descrição
         List<Map<String, String>> data = new ArrayList<>();
+        String titulos[] = new String[]{"Provas antigas",
+                "Simulados",
+                "Niveladas",
+                "Cadernos",
+                "Livros",
+                "Escolas"};
+        String subtitulos[] = new String[]{"Veja todas as provas já realizadas até a data atual",
+                "Treine para suas provas usando nossos simulados",
+                "Veja todas as questões ordenadas por dificuldade",
+                "As vezes é mais fácil decifrar o caderno do colega do que entender a aula",
+                "Leia os melhores livros gratuítos de cada disciplina",
+                "Veja informações das nossas parceiras"};
 
-        Map<String, String> mapa = new HashMap<>(2);
-        mapa.put("title","Provas antigas");
-        mapa.put("subtitle","Veja todas as provas já realizadas até a data atual");
-        data.add(mapa);
-
-        mapa = new HashMap<>(2);
-        mapa.put("title","Simulados");
-        mapa.put("subtitle","Treine para suas provas usando nossos simulados");
-        data.add(mapa);
-
-        mapa = new HashMap<>(2);
-        mapa.put("title","Niveladas");
-        mapa.put("subtitle","Veja todas as questões ordenadas por dificuldade");
-        data.add(mapa);
-
-        mapa = new HashMap<>(2);
-        mapa.put("title","Cadernos");
-        mapa.put("subtitle","As vezes é mais fácil decifrar o caderno do colega do que entender a aula");
-        data.add(mapa);
-
-        mapa = new HashMap<>(2);
-        mapa.put("title","Livros");
-        mapa.put("subtitle","Leia os melhores livros gratuítos de cada disciplina");
-        data.add(mapa);
-
-        mapa = new HashMap<>(2);
-        mapa.put("title","Escolas");
-        mapa.put("subtitle","Veja informações das nossas parceiras");
-        data.add(mapa);
+        for (int i = 0; i < 6; i++){
+            Map<String, String> mapa = new HashMap<>(2);
+            mapa.put("title",titulos[i]);
+            mapa.put("subtitle",subtitulos[i]);
+            data.add(mapa);
+        }
 
         SimpleAdapter adapter = new SimpleAdapter(this,
                 data,
